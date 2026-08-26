@@ -1,0 +1,565 @@
+site:
+  name: RS suite
+  description: A compact map of LUMC research software stewardship projects, their relationships, and maintenance impact.
+  repo_url: https://github.com/LUMC-DCC/rs-suite
+  site_url: https://lumc-dcc.github.io/rs-suite/
+stages:
+  learn:
+    title: Discover & learn
+    order: 1
+    user_guidance: Learn the recommended practices and find training or support before choosing tools.
+  plan:
+    title: Plan & describe
+    order: 2
+    user_guidance: Describe the software project and turn its management plan into structured information.
+  build:
+    title: Build the software project
+    order: 3
+    user_guidance: Create a well-structured repository and keep its metadata and standard files valid.
+  reuse:
+    title: Publish, connect & reuse
+    order: 4
+    user_guidance: Publish the software metadata, connect it to registries, and keep records synchronized.
+maintainers:
+  adm:
+    name: ADM
+  elixir:
+    name: ELIXIR
+projects:
+  albinusnet:
+    name: Albinusnet - Research Software Stewardship
+    stage: learn
+    kind: component
+    maintained_by: [adm]
+    url: https://www.albinusnet.nl/en/products-and-services/research/data-stewardship/research-software-stewardship/
+    summary: General information and overview on research software stewardship at LUMC.
+    skills:
+      domain:
+      - Research software stewardship and policy
+      operations:
+      - Basic CMS/web publishing
+    relations:
+    - to: rs-guidelines
+      label: introduces
+      type: supporting
+    - to: rs-training
+      label: introduces
+      type: supporting
+    - to: sciwiz
+      label: introduces
+      type: supporting
+    maintenance:
+    - project: rs-guidelines
+      reason: Align definitions, recommendations and links when stewardship policy/guidance changes.
+    - project: rs-training
+      reason: Update teaching material when the stewardship model or recommended practices change.
+    - project: sciwiz
+      reason: Review SMP workflow guidance when high-level stewardship requirements change.
+    - project: rsmp-km
+      reason: Review SMP questions/guidance when high-level stewardship requirements change.
+  rs-guidelines:
+    name: rs-guidelines
+    stage: learn
+    kind: component
+    maintained_by: [adm]
+    url: https://lumc-dcc.github.io/rs-guidelines/
+    repository: https://github.com/LUMC-DCC/rs-guidelines
+    summary: Definitions, resources, and best practices for research software.
+    skills:
+      domain:
+      - FAIR4RS/FOSS
+      - Research software metadata
+      development:
+      - Markdown
+      - YAML
+      operations:
+      - GitHub Actions
+      - GitHub Pages
+    relations:
+    - to: sciwiz
+      label: describes & guides
+      type: supporting
+    maintenance:
+    - project: rs-training
+      reason: Keep teaching material aligned with recommended practices.
+    - project: coding-cafe
+      reason: Keep support material aligned with recommended practices.
+    - project: sciwiz
+      reason: Review questionnaire guidance and recommendations.
+    - project: rsmp-km
+      reason: Review questionnaire guidance and recommendations.
+    - project: rs-repo-templates
+      reason: Update generated repository defaults when recommended practices change.
+    - project: rs-files-templates
+      reason: Update generated files when recommended practices change.
+    - project: rs-metadata
+      reason: Review validation rules when metadata recommendations change.
+  rs-training:
+    name: Research software training
+    stage: learn
+    kind: support
+    maintained_by: [adm]
+    url: https://lumc-dcc.github.io/research_software_training/
+    repository: https://github.com/LUMC-DCC/research_software_training
+    summary: Training material that supports the other suite components.
+    skills:
+      domain:
+      - Research software training
+      development:
+      - Markdown
+      - HTML/CSS
+      operations:
+      - GitHub Actions
+      - GitHub Pages
+    maintenance:
+    - project: coding-cafe
+      reason: Refresh exercises and support material as training changes.
+  coding-cafe:
+    name: Coding Cafe
+    stage: learn
+    kind: community
+    maintained_by: [adm]
+    summary: Community meetups.
+    skills:
+      domain:
+      - Community facilitation
+      - Training facilitation
+    maintenance:
+    - project: rs-training
+      reason: Feed recurring support problems back into training material when useful.
+    - project: rs-guidelines
+      reason: Feed recurring support problems back into guidance when useful.
+  sciwiz:
+    name: SciWiz
+    stage: plan
+    kind: component
+    maintained_by: [adm]
+    url: https://sciwiz.lumc.nl
+    summary: LUMC instance of Data Stewardship Wizard for filling in software management plans and exports.
+    skills:
+      domain:
+      - SMP/DMP workflows
+      - Data Stewardship Wizard
+      operations:
+      - Deployment
+      - Data handling and backups
+      - Upgrades
+      - Security
+    relations:
+    - to: rsmp-km
+      label: uses
+    maintenance:
+    - project: rsmp-km
+      reason: Check Knowledge Model compatibility after DSW/SciWiz upgrades.
+    - project: lumc-export
+      reason: Review export integration if questionnaire/export APIs or template behavior changes.
+    - project: rsm-schema
+      reason: Verify that SciWiz output can still be converted into RSM metadata.
+    - project: rs-training
+      reason: Refresh screenshots/workflow instructions after UI or process changes.
+    - project: rs-guidelines
+      reason: Refresh workflow instructions after UI or process changes.
+  rsmp-km:
+    name: rsmp-km
+    stage: plan
+    kind: component
+    maintained_by: [adm]
+    status: in-progress
+    url: https://github.com/LUMC-DCC/sciwiz-smp-km
+    repository: https://github.com/LUMC-DCC/sciwiz-smp-km
+    summary: SciWiz Knowledge Model for creating Software Management Plans.
+    skills:
+      domain:
+      - Software Management Plans
+      - Research software policy
+      - Information modelling
+      - FAIR/FOSS metrics
+      development:
+      - DSW Knowledge Model Editor
+      - DSW Knowledge Models
+    relations:
+    - to: lumc-export
+      label: converts to
+    - to: escience-export
+      label: converts to
+    - to: rsm-schema-export
+      label: converts to
+    maintenance:
+    - project: lumc-export
+      reason: Update question-to-Markdown mapping when questions, identifiers or answer structures change.
+    - project: rsm-schema
+      reason: Update conversion/mapping for new or changed questionnaire concepts.
+    - project: sciwiz
+      reason: Publish/import the new Knowledge Model version and migrate questionnaires when needed.
+    - project: rs-guidelines
+      reason: Update user-facing terminology/concepts when needed.
+    - project: rs-training
+      reason: Update user-facing terminology/concepts when needed.
+  lumc-export:
+    name: .md KM export
+    stage: plan
+    kind: component
+    maintained_by: [adm]
+    status: in-progress
+    summary: Question-answer Markdown export from the Software Management Plan.
+    note: Repository/location still to be added.
+    skills:
+      development:
+      - DSW Documents Editor
+      - Jinja
+      - Schema/data mapping
+    maintenance:
+    - project: rsmp-km
+      reason: Review only if exporter changes require question identifiers/structure to change.
+    - project: rs-guidelines
+      reason: Update examples/instructions if generated Markdown changes materially.
+    - project: rs-training
+      reason: Update examples/instructions if generated Markdown changes materially.
+  escience-export:
+    name: .md eScience/NWO KM export
+    stage: plan
+    kind: component
+    maintained_by: [adm]
+    status: in-progress
+    summary: Markdown export from the SMP for the eScience Center / NWO template.
+    note: Repository/location still to be added.
+    skills:
+      domain:
+      - eScience Center SMP template, NWO requirements
+      development:
+      - DSW Documents Editor
+      - Jinja
+      - Schema/data mapping
+  rsm-schema-export:
+    name: .json KM export adhering to RSM schema
+    stage: plan
+    kind: component
+    maintained_by: [adm]
+    status: in-progress
+    summary: JSON export from the SMP in the form of RSM schema data
+    relations:
+    - to: rsm-schema
+      label: uses
+    - to: rs-tools
+      label: submits to
+  rsm-schema:
+    name: rsm-schema
+    stage: plan
+    kind: component
+    maintained_by: [adm]
+    url: https://github.com/LUMC-DCC/rsm-schema
+    repository: https://github.com/LUMC-DCC/rsm-schema
+    summary: Structured metadata schema and Python representation for Research Software Management.
+    skills:
+      development:
+      - Python
+      - JSON Schema development
+      - Pydantic v2
+      - datamodel-code-generator
+      operations:
+      - GitHub Actions
+      - GitHub Pages
+    relations:
+    - to: rsmp-km
+      label: imports to (planned)
+    - to: rs-tools
+      label: drives
+    - to: diff-fuse
+      label: resolve versions
+      bidirectional: true
+      type: supporting
+    maintenance:
+    - project: rsmp-km
+      reason: Update import/export mapping for added, renamed, removed or constrained schema fields.
+    - project: rs-tools
+      reason: Update forms, payload generation, validation and schema version handling.
+    - project: rs-files-templates
+      reason: Update model/template bindings if generated files consume changed RSM fields.
+    - project: rs-metadata
+      reason: Review mappings/validation where RSM fields correspond to repository metadata.
+    - project: github-rsm-bridge
+      reason: Update repository ↔ RSM field extraction/mapping.
+    - project: diff-fuse
+      reason: Test compatibility if schema-aware reconciliation rules are introduced.
+  rs-tools:
+    name: rs-tools
+    stage: build
+    kind: component
+    maintained_by: [adm]
+    status: in-progress
+    summary: Web tool to edit RSM metadata and generate project assets.
+    note: Repository/location still to be added.
+    skills:
+      development:
+      - Python
+      - REST APIs
+      - TypeScript
+      - React
+      - Vite
+      - HTML/CSS
+      - JSON Forms
+      - JSON Schema
+      operations:
+      - Redis
+      - Deployment web
+      - GitHub Auth
+      - GitHub Actions
+      - GitHub Pages
+    relations:
+    - to: rs-repo-templates
+      label: generates
+    - to: rs-files-templates
+      label: generates
+    maintenance:
+    - project: rs-repo-templates
+      reason: Update integration if generator inputs/outputs or invocation conventions change.
+    - project: rs-files-templates
+      reason: Update integration if file-generation APIs, variables or output contracts change.
+    - project: rsm-schema
+      reason: Propose schema changes if rs-tools introduces genuinely new structured concepts.
+    - project: rs-training
+      reason: Refresh usage instructions after UI/workflow changes.
+    - project: rs-guidelines
+      reason: Refresh usage instructions after UI/workflow changes.
+  rs-files-templates:
+    name: rs-files-templates
+    stage: build
+    kind: component
+    maintained_by: [adm]
+    url: https://github.com/LUMC-DCC/rs-files-templates
+    repository: https://github.com/LUMC-DCC/rs-files-templates
+    summary: Generate repository and metadata files from RSM data.
+    outputs:
+    - metadata files
+    - documentation files
+    - repository files
+    skills:
+      domain:
+      - FAIR4RS/FOSS
+      development:
+      - Python
+      - Pydantic v2
+      - Jinja
+      operations:
+      - PyPi
+      - GitHub Actions
+      - GitHub Pages
+    relations:
+    - to: rs-metadata
+      label: validated by
+      type: supporting
+    maintenance:
+    - project: rs-repo-templates
+      reason: Update included templates, invocation or generated-file expectations.
+    - project: rs-tools
+      reason: Update integration when template inputs or output contracts change.
+    - project: rs-metadata
+      reason: Update validation expectations when metadata-file structure/content changes.
+    - project: rs-guidelines
+      reason: Update documented examples when generated standards change.
+    - project: rs-training
+      reason: Update documented examples when generated standards change.
+  rs-repo-templates:
+    name: rs-repo-templates
+    stage: build
+    kind: component
+    maintained_by: [adm]
+    status: in-progress
+    url: https://github.com/LUMC-DCC/rs-repo-templates
+    repository: https://github.com/LUMC-DCC/rs-repo-templates
+    summary: Repository templates for starting projects with FAIR and FOSS practices baked in.
+    skills:
+      domain:
+      - FAIR4RS/FOSS
+      - Software architecture
+      - Software project conventions
+      development:
+      - Python
+      - Python conventions
+      - R conventions
+      - Copier
+      - Jinja
+      operations:
+      - GitHub Actions
+      - GitHub Pages
+    relations:
+    - to: rs-metadata
+      label: includes
+      type: supporting
+    - to: rs-files-templates
+      label: includes
+      type: supporting
+    - to: repository
+      label: develops into
+      type: supporting
+    maintenance:
+    - project: rs-tools
+      reason: Update generator integration if Cookiecutter variables, template names or invocation change.
+    - project: rs-metadata
+      reason: Review validation/CI assumptions if generated metadata or workflow files change.
+    - project: rs-training
+      reason: Update quick-start instructions and examples.
+    - project: rs-guidelines
+      reason: Update quick-start instructions and examples.
+    - project: repository
+      reason: Existing generated repositories do not update automatically; document or automate migrations when changes should
+        propagate.
+  rs-metadata:
+    name: rs-metadata
+    stage: build
+    kind: component
+    maintained_by: [adm]
+    url: https://github.com/LUMC-DCC/rs-metadata
+    repository: https://github.com/LUMC-DCC/rs-metadata
+    summary: Validate the LUMC CodeMeta profile and keep repository metadata consistent.
+    skills:
+      domain:
+      - CodeMeta
+      - schema.org
+      - Software metadata
+      - Software managers / packaging / containerization
+      - Metadata crosswalks
+      development:
+      - Python
+      - Typer
+      - JSON Schema
+      - GitHub Actions
+      operations:
+      - GitHub Actions
+      - GitHub Pages
+    maintenance:
+    - project: rs-files-templates
+      reason: Update generated examples/templates when validator requirements or supported profiles change.
+    - project: rs-repo-templates
+      reason: Update CI/configuration when commands, configuration or supported metadata formats change.
+    - project: bridge
+      reason: Review field mapping if repository metadata normalization changes affect bridge inputs.
+    - project: rs-training
+      reason: Update metadata instructions when validation rules or formats change.
+    - project: rs-guidelines
+      reason: Update metadata instructions when validation rules or formats change.
+  repository:
+    name: Repository
+    stage: reuse
+    kind: artifact
+    maintained_by: [adm]
+    summary: A research software repository produced and maintained using the suite.
+    relations:
+    - to: github-biotools-bridge
+      label: extract & suggest
+      bidirectional: true
+    - to: github-rsm-bridge
+      label: extract (planned)
+      bidirectional: true
+    maintenance:
+    - project: bridge
+      reason: Update extraction logic when repository metadata locations/formats change.
+    - project: rs-metadata
+      reason: Update validation/normalization rules for new repository conventions.
+    - project: biotools
+      reason: Re-sync registry records after authoritative repository metadata changes.
+  bridge:
+    name: Metadata bridge
+    stage: reuse
+    kind: external
+    maintained_by: [elixir]
+    status: in-progress
+    summary: Bidirectional metadata bridge; RSM sync is planned.
+    maintenance:
+    - project: rs-metadata
+      reason: Review extraction rules when repository metadata conventions change.
+    projects:
+      github-biotools-bridge:
+        name: GitHub ↔ bio.tools bridge
+        kind: component
+        status: in-progress
+        url: https://github.com/bio-tools/biohackathon2025
+        repository: https://github.com/bio-tools/biohackathon2025
+        summary: Synchronize software metadata bidirectionally between GitHub repositories and bio.tools.
+        skills:
+          domain:
+          - Software metadata
+          - Software registries
+          - Software repositories
+          - Metadata crosswalks
+          development:
+          - Python
+          - REST APIs
+          - Typer
+          - JSON Schema
+          operations:
+          - GitHub Actions
+          - GitHub Pages
+        relations:
+        - to: biotools
+          label: extract & suggest
+          bidirectional: true
+        maintenance:
+        - project: biotools
+          reason: Review registry records/API integration when mapping behavior changes.
+        - project: diff-fuse
+          reason: Update integration only if bridge reconciliation depends on Diff Fuse API/payload conventions.
+      github-rsm-bridge:
+        name: GitHub ↔ RSM bridge
+        kind: component
+        status: planned
+        summary: Synchronize repository metadata with the Research Software Metadata schema.
+        skills:
+          domain:
+          - Software metadata
+          - Software registries
+          - Software repositories
+          - Metadata crosswalks
+          development:
+          - Python
+          - REST APIs
+          - Typer
+          - JSON Schema
+          operations:
+          - GitHub Actions
+          - GitHub Pages
+        relations:
+        - to: rsm-schema
+          label: extract from repo
+        maintenance:
+        - project: rsm-schema
+          reason: Update mapping if the bridge changes its RSM representation or extracts new RSM fields.
+  biotools:
+    name: bio.tools registry
+    stage: reuse
+    kind: artifact
+    maintained_by: [adm]
+    url: https://bio.tools/
+    summary: External registry for software metadata.
+    maintenance:
+    - project: github-biotools-bridge
+      reason: Update API client, authentication, field mapping and sync logic after API/schema changes.
+    - project: diff-fuse
+      reason: Update only if the registry JSON representation or reconciliation integration changes.
+  diff-fuse:
+    name: Diff Fuse
+    stage: reuse
+    kind: external
+    maintained_by: [elixir]
+    url: https://github.com/bio-tools/diff-fuse
+    repository: https://github.com/bio-tools/diff-fuse
+    summary: Compare equivalent JSON documents side by side and merge them interactively.
+    skills:
+      development:
+      - Python
+      - REST APIs
+      - TypeScript
+      - React
+      - Vite
+      - HTML/CSS
+      - JSON diff/merge
+      operations:
+      - Redis
+      - Deployment web
+      - GitHub Actions
+      - GitHub Pages
+    maintenance:
+    - project: github-biotools-bridge
+      reason: Update client integration if endpoints, payloads, conflict representation or merge semantics change.
+    - project: rsm-schema
+      reason: Add adapters/tests only if schema-specific behavior is introduced.

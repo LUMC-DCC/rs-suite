@@ -1,0 +1,9 @@
+.venv/
+node_modules/
+site/
+__pycache__/
+*.py[cod]
+.DS_Store
+.cache/
+site/
+docs/assets/suite.dot

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rs-suite"
+version = "0.1.0"
+description = "Overview of linked LUMC research software stewardship projects."
+authors = ["LUMC Data Competence Center"]
+readme = "README.md"
+packages = [{ include = "rs_suite", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+zensical = "0.0.56"
+PyYAML = "6.0.2"
+Jinja2 = "3.1.6"
+
+[tool.poetry.scripts]
+suite-docs = "rs_suite.cli:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

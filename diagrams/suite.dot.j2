@@ -1,0 +1,118 @@
+{% macro render_project(project, stage) %}
+{% if project.container %}
+    subgraph "cluster-project-{{ project.id }}" {
+      graph [
+        id="project-{{ project.id }}",
+        label=<{{ project.label }}>,
+        labelloc=t,
+        labeljust=l,
+        style="rounded,filled{% if project.status == "in-progress" %},dashed{% endif %}",
+        color="{{ stage.border }}",
+        fillcolor="{{ project.fill }}",
+        penwidth=1.4,
+        margin=16,
+        fontname="Arial Bold",
+        fontsize=12,
+        fontcolor="#18212b",
+        tooltip={{ project.name | dot }}{% if project.url %},
+        URL={{ project.url | dot }},
+        target="_blank"{% endif %}
+      ];
+      "{{ project.id }}" [
+        id="project-anchor-{{ project.id }}",
+        shape=point,
+        width=0.01,
+        height=0.01,
+        label="",
+        style=invis
+      ];
+{% for child in project.projects %}
+{{ render_project(child, stage) }}
+{% endfor %}
+      { rank=same; "{{ project.id }}";{% for child in project.projects %} "{{ child.id }}";{% endfor %} }
+    }
+{% else %}
+    "{{ project.id }}" [
+      id="project-{{ project.id }}",
+      label=<{{ project.label }}>,
+      fillcolor="{{ project.fill }}",
+      tooltip={{ project.name | dot }}{% if project.url %},
+      URL={{ project.url | dot }},
+      target="_blank"{% endif %}{% if project.status in ["in-progress", "planned"] %},
+      style="rounded,filled,dashed"{% endif %}
+    ];
+{% endif %}
+{% endmacro %}
+digraph suite {
+  graph [
+    id="suite-map",
+    rankdir=TB,
+    newrank=true,
+    compound=true,
+    splines=polyline,
+    overlap=false,
+    outputorder=edgesfirst,
+    forcelabels=true,
+    bgcolor="transparent",
+    pad=0.18,
+    nodesep=0.42,
+    ranksep=1.0,
+    fontname="Arial",
+    fontcolor="#18212b"
+  ];
+  node [
+    shape=box,
+    style="rounded,filled",
+    color="#5787a5",
+    penwidth=1.5,
+    fontname="Arial",
+    fontsize=11,
+    fontcolor="#18212b",
+    margin="0.16,0.10"
+  ];
+  edge [
+    color="#536577",
+    penwidth=1.5,
+    arrowsize=0.72,
+    fontname="Arial",
+    fontsize=9,
+    fontcolor="#374553"
+  ];
+
+{% for stage in stages %}
+  subgraph "cluster-{{ stage.id }}" {
+    graph [
+      id="stage-{{ stage.id }}",
+      label={{ stage.title | dot }},
+      labelloc=t,
+      labeljust=l,
+      style="rounded,filled",
+      color="{{ stage.border }}",
+      fillcolor="{{ stage.fill }}",
+      penwidth=1.6,
+      margin=22,
+      fontname="Arial Bold",
+      fontsize=14,
+      fontcolor="#18212b"
+    ];
+{% for project in stage.projects %}
+{{ render_project(project, stage) }}
+{% endfor %}
+  }
+{% endfor %}
+
+{% for relation in relations %}
+  "{{ relation.from }}" -> "{{ relation.to }}" [
+    id="{{ relation.id }}",
+    label=<{{ relation.label_html }}>,
+    tooltip={{ relation.tooltip | dot }},
+    weight={{ 5 if relation.same_stage else 2 }},
+    constraint={{ "true" if relation.forward else "false" }}{% if relation.source_container %},
+    ltail="cluster-project-{{ relation.from }}"{% endif %}{% if relation.target_container %},
+    lhead="cluster-project-{{ relation.to }}"{% endif %}{% if relation.type == "supporting" %},
+    style=dashed{% endif %}{% if relation.bidirectional %},
+    dir=both,
+    arrowtail=normal{% endif %}
+  ];
+{% endfor %}
+}

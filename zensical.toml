@@ -1,0 +1,55 @@
+[project]
+site_name = "RS suite"
+site_description = "Overview of linked LUMC research software stewardship projects."
+site_url = "https://lumc-dcc.github.io/rs-suite/"
+repo_url = "https://github.com/LUMC-DCC/rs-suite"
+repo_name = "LUMC-DCC/rs-suite"
+edit_uri = "edit/main/data/suite.yml"
+copyright = "LUMC-DCC"
+nav = [
+  { "Home" = "index.md" },
+  { "For users" = [
+    { "User guide" = "users/index.md" },
+  ] },
+  { "For developers & maintainers" = [
+    { "Suite architecture" = "developers/index.md" },
+    { "Project reference" = "developers/projects.md" },
+    { "Maintenance impact" = "developers/impact.md" },
+    { "Maintenance skills" = "developers/maintenance.md" },
+  ] },
+]
+extra_css = ["stylesheets/extra.css"]
+
+[project.theme]
+variant = "modern"
+features = [
+  "navigation.sections",
+  "navigation.top",
+  "content.code.copy",
+]
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.extra]
+generator = true

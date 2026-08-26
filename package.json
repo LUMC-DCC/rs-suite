@@ -1,0 +1,7 @@
+{
+  "name": "rs-suite-diagram",
+  "private": true,
+  "devDependencies": {
+    "@viz-js/viz": "3.29.0"
+  }
+}

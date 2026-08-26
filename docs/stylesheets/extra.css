@@ -1,0 +1,19 @@
+.suite-diagram-frame {
+  border: 1px solid #d7d7dc;
+  border-radius: 16px;
+  background: #fbfcfe;
+  overflow-x: auto;
+  padding: 0.5rem;
+}
+
+.suite-diagram {
+  display: block;
+  min-width: 1000px;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.md-grid {
+  max-width: 1500px;
+}
