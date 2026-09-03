@@ -5,7 +5,7 @@ Technical reference for every project and nested project in the suite.
 <!-- generated:start -->
 ## Discover & learn
 
-### Albinusnet - Research Software Stewardship
+### Albinusnet - Research Software Stewardship (internal)
 
 General information and overview on research software stewardship at LUMC.
 
@@ -25,8 +25,7 @@ Training material that supports the other suite components.
 
 **Link:** https://lumc-dcc.github.io/research_software_training/  **Repository:** https://github.com/LUMC-DCC/research_software_training
 
----
-### Coding Cafe
+#### Coding Cafe
 
 Community meetups.
 
@@ -40,7 +39,7 @@ LUMC instance of Data Stewardship Wizard for filling in software management plan
 **Link:** https://sciwiz.lumc.nl
 
 ---
-### rsmp-km
+### research-smp
 
 SciWiz Knowledge Model for creating Software Management Plans.
 
@@ -51,28 +50,28 @@ SciWiz Knowledge Model for creating Software Management Plans.
 
 Question-answer Markdown export from the Software Management Plan.
 
-**Status:** in-progress  **Note:** Repository/location still to be added.
+**Status:** in-progress  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-doc-universal
 
 ---
 ### .md eScience/NWO KM export
 
 Markdown export from the SMP for the eScience Center / NWO template.
 
-**Status:** in-progress  **Note:** Repository/location still to be added.
+**Status:** in-progress  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-doc-escience
 
 ---
 ### .json KM export adhering to RSM schema
 
 JSON export from the SMP in the form of RSM schema data
 
-**Status:** in-progress
+**Status:** in-progress  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-rsmjson
 
 ---
 ### rsm-schema
 
 Structured metadata schema and Python representation for Research Software Management.
 
-**Link:** https://github.com/LUMC-DCC/rsm-schema
+**Link:** https://lumc-dcc.github.io/rsm-schema/  **Repository:** https://github.com/LUMC-DCC/rsm-schema
 
 ---
 ## Build the software project
@@ -81,14 +80,14 @@ Structured metadata schema and Python representation for Research Software Manag
 
 Web tool to edit RSM metadata and generate project assets.
 
-**Status:** in-progress  **Note:** Repository/location still to be added.
+**Status:** in-progress  **Link:** https://rs-tools.onrender.com/  **Repository:** https://github.com/LUMC-DCC/rs-tools
 
 ---
 ### rs-files-templates
 
 Generate repository and metadata files from RSM data.
 
-**Link:** https://github.com/LUMC-DCC/rs-files-templates
+**Link:** https://lumc-dcc.github.io/rs-files-templates/  **Repository:** https://github.com/LUMC-DCC/rs-files-templates
 
 **Produces:** metadata files, documentation files, repository files
 
@@ -104,7 +103,7 @@ Repository templates for starting projects with FAIR and FOSS practices baked in
 
 Validate the LUMC CodeMeta profile and keep repository metadata consistent.
 
-**Link:** https://github.com/LUMC-DCC/rs-metadata
+**Link:** https://lumc-dcc.github.io/rs-metadata/  **Repository:** https://github.com/LUMC-DCC/rs-metadata
 
 ---
 ## Publish, connect & reuse
@@ -118,13 +117,13 @@ A research software repository produced and maintained using the suite.
 
 Bidirectional metadata bridge; RSM sync is planned.
 
-**Status:** in-progress
+**Status:** in-progress  **Link:** https://github.com/bio-tools/metadata-bridge
 
 #### GitHub ↔ bio.tools bridge
 
 Synchronize software metadata bidirectionally between GitHub repositories and bio.tools.
 
-**Status:** in-progress  **Link:** https://github.com/bio-tools/biohackathon2025
+**Status:** active
 
 #### GitHub ↔ RSM bridge
 

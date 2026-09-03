@@ -27,7 +27,7 @@ maintainers:
     name: ELIXIR
 projects:
   albinusnet:
-    name: Albinusnet - Research Software Stewardship
+    name: Albinusnet - Research Software Stewardship (internal)
     stage: learn
     kind: component
     maintained_by: [adm]
@@ -82,8 +82,6 @@ projects:
     maintenance:
     - project: rs-training
       reason: Keep teaching material aligned with recommended practices.
-    - project: coding-cafe
-      reason: Keep support material aligned with recommended practices.
     - project: sciwiz
       reason: Review questionnaire guidance and recommendations.
     - project: rsmp-km
@@ -111,24 +109,20 @@ projects:
       operations:
       - GitHub Actions
       - GitHub Pages
-    maintenance:
-    - project: coding-cafe
-      reason: Refresh exercises and support material as training changes.
-  coding-cafe:
-    name: Coding Cafe
-    stage: learn
-    kind: community
-    maintained_by: [adm]
-    summary: Community meetups.
-    skills:
-      domain:
-      - Community facilitation
-      - Training facilitation
-    maintenance:
-    - project: rs-training
-      reason: Feed recurring support problems back into training material when useful.
-    - project: rs-guidelines
-      reason: Feed recurring support problems back into guidance when useful.
+    projects:
+      coding-cafe:
+        name: Coding Cafe
+        stage: learn
+        kind: community
+        maintained_by: [adm]
+        summary: Community meetups.
+        skills:
+          domain:
+          - Community facilitation
+          - Training facilitation
+        maintenance:
+        - project: rs-guidelines
+          reason: Feed recurring support problems back into guidance when useful.
   sciwiz:
     name: SciWiz
     stage: plan
@@ -151,7 +145,7 @@ projects:
     maintenance:
     - project: rsmp-km
       reason: Check Knowledge Model compatibility after DSW/SciWiz upgrades.
-    - project: lumc-export
+    - project: generic-export
       reason: Review export integration if questionnaire/export APIs or template behavior changes.
     - project: rsm-schema
       reason: Verify that SciWiz output can still be converted into RSM metadata.
@@ -160,11 +154,11 @@ projects:
     - project: rs-guidelines
       reason: Refresh workflow instructions after UI or process changes.
   rsmp-km:
-    name: rsmp-km
+    name: research-smp KM
     stage: plan
     kind: component
     maintained_by: [adm]
-    status: in-progress
+    status: active
     url: https://github.com/LUMC-DCC/sciwiz-smp-km
     repository: https://github.com/LUMC-DCC/sciwiz-smp-km
     summary: SciWiz Knowledge Model for creating Software Management Plans.
@@ -178,14 +172,14 @@ projects:
       - DSW Knowledge Model Editor
       - DSW Knowledge Models
     relations:
-    - to: lumc-export
+    - to: generic-export
       label: converts to
     - to: escience-export
       label: converts to
     - to: rsm-schema-export
       label: converts to
     maintenance:
-    - project: lumc-export
+    - project: generic-export
       reason: Update question-to-Markdown mapping when questions, identifiers or answer structures change.
     - project: rsm-schema
       reason: Update conversion/mapping for new or changed questionnaire concepts.
@@ -195,14 +189,15 @@ projects:
       reason: Update user-facing terminology/concepts when needed.
     - project: rs-training
       reason: Update user-facing terminology/concepts when needed.
-  lumc-export:
+  generic-export:
     name: .md KM export
     stage: plan
     kind: component
     maintained_by: [adm]
-    status: in-progress
+    status: active
     summary: Question-answer Markdown export from the Software Management Plan.
-    note: Repository/location still to be added.
+    url: https://github.com/LUMC-DCC/sciwiz-smp-doc-universal
+    repository: https://github.com/LUMC-DCC/sciwiz-smp-doc-universal
     skills:
       development:
       - DSW Documents Editor
@@ -220,9 +215,10 @@ projects:
     stage: plan
     kind: component
     maintained_by: [adm]
-    status: in-progress
+    status: active
     summary: Markdown export from the SMP for the eScience Center / NWO template.
-    note: Repository/location still to be added.
+    url: https://github.com/LUMC-DCC/sciwiz-smp-doc-escience
+    repository: https://github.com/LUMC-DCC/sciwiz-smp-doc-escience
     skills:
       domain:
       - eScience Center SMP template, NWO requirements
@@ -235,8 +231,10 @@ projects:
     stage: plan
     kind: component
     maintained_by: [adm]
-    status: in-progress
+    status: active
     summary: JSON export from the SMP in the form of RSM schema data
+    url: https://github.com/LUMC-DCC/sciwiz-smp-rsmjson
+    repository: https://github.com/LUMC-DCC/sciwiz-smp-rsmjson
     relations:
     - to: rsm-schema
       label: uses
@@ -247,7 +245,7 @@ projects:
     stage: plan
     kind: component
     maintained_by: [adm]
-    url: https://github.com/LUMC-DCC/rsm-schema
+    url: https://lumc-dcc.github.io/rsm-schema/
     repository: https://github.com/LUMC-DCC/rsm-schema
     summary: Structured metadata schema and Python representation for Research Software Management.
     skills:
@@ -286,9 +284,10 @@ projects:
     stage: build
     kind: component
     maintained_by: [adm]
-    status: in-progress
+    status: active
     summary: Web tool to edit RSM metadata and generate project assets.
-    note: Repository/location still to be added.
+    url: https://rs-tools.onrender.com/
+    repository: https://github.com/LUMC-DCC/rs-tools
     skills:
       development:
       - Python
@@ -326,7 +325,7 @@ projects:
     stage: build
     kind: component
     maintained_by: [adm]
-    url: https://github.com/LUMC-DCC/rs-files-templates
+    url: https://lumc-dcc.github.io/rs-files-templates/
     repository: https://github.com/LUMC-DCC/rs-files-templates
     summary: Generate repository and metadata files from RSM data.
     outputs:
@@ -364,7 +363,7 @@ projects:
     stage: build
     kind: component
     maintained_by: [adm]
-    status: in-progress
+    status: active
     url: https://github.com/LUMC-DCC/rs-repo-templates
     repository: https://github.com/LUMC-DCC/rs-repo-templates
     summary: Repository templates for starting projects with FAIR and FOSS practices baked in.
@@ -409,7 +408,7 @@ projects:
     stage: build
     kind: component
     maintained_by: [adm]
-    url: https://github.com/LUMC-DCC/rs-metadata
+    url: https://lumc-dcc.github.io/rs-metadata/
     repository: https://github.com/LUMC-DCC/rs-metadata
     summary: Validate the LUMC CodeMeta profile and keep repository metadata consistent.
     skills:
@@ -465,6 +464,8 @@ projects:
     maintained_by: [elixir]
     status: in-progress
     summary: Bidirectional metadata bridge; RSM sync is planned.
+    url: https://github.com/bio-tools/metadata-bridge
+    repository: https://github.com/bio-tools/metadata-bridge
     maintenance:
     - project: rs-metadata
       reason: Review extraction rules when repository metadata conventions change.
@@ -472,9 +473,7 @@ projects:
       github-biotools-bridge:
         name: GitHub ↔ bio.tools bridge
         kind: component
-        status: in-progress
-        url: https://github.com/bio-tools/biohackathon2025
-        repository: https://github.com/bio-tools/biohackathon2025
+        status: active
         summary: Synchronize software metadata bidirectionally between GitHub repositories and bio.tools.
         skills:
           domain:
