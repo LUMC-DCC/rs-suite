@@ -45,20 +45,20 @@ Parent projects are containers around their child projects. Every relationship a
 
 | Project | Purpose | Status |
 |---|---|---|
-| [SciWiz](https://sciwiz.lumc.nl) | LUMC instance of Data Stewardship Wizard for filling in software management plans and exports. | active |
-| [research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km) | SciWiz Knowledge Model for creating Software Management Plans. | in-progress |
-| [.md KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-universal) | Question-answer Markdown export from the Software Management Plan. | in-progress |
-| [.md eScience/NWO KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-escience) | Markdown export from the SMP for the eScience Center / NWO template. | in-progress |
-| [.json KM export adhering to RSM schema](https://github.com/LUMC-DCC/sciwiz-smp-rsmjson) | JSON export from the SMP in the form of RSM schema data | in-progress |
+| [SciWiz (internal)](https://sciwiz.lumc.nl) | LUMC instance of Data Stewardship Wizard for filling in software management plans and exports. | active |
+| [research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km) | SciWiz Knowledge Model for creating Software Management Plans. | active |
+| [.md KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-universal) | Question-answer Markdown export from the Software Management Plan. | active |
+| [.md eScience/NWO KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-escience) | Markdown export from the SMP for the eScience Center / NWO template. | active |
+| [.json KM export adhering to RSM schema](https://github.com/LUMC-DCC/sciwiz-smp-rsmjson) | JSON export from the SMP in the form of RSM schema data | active |
 | [rsm-schema](https://lumc-dcc.github.io/rsm-schema/) | Structured metadata schema and Python representation for Research Software Management. | active |
 
 ### Build the software project
 
 | Project | Purpose | Status |
 |---|---|---|
-| [rs-tools](https://rs-tools.onrender.com/) | Web tool to edit RSM metadata and generate project assets. | in-progress |
+| [rs-tools](https://rs-tools.onrender.com/) | Web tool to edit RSM metadata and generate project assets. | active |
 | [rs-files-templates](https://lumc-dcc.github.io/rs-files-templates/) | Generate repository and metadata files from RSM data. | active |
-| [rs-repo-templates](https://github.com/LUMC-DCC/rs-repo-templates) | Repository templates for starting projects with FAIR and FOSS practices baked in. | in-progress |
+| [rs-repo-templates](https://github.com/LUMC-DCC/rs-repo-templates) | Repository templates for starting projects with FAIR and FOSS practices baked in. | active |
 | [rs-metadata](https://lumc-dcc.github.io/rs-metadata/) | Validate the LUMC CodeMeta profile and keep repository metadata consistent. | active |
 
 ### Publish, connect & reuse

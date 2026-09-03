@@ -13,8 +13,8 @@ Use these views to find the skills needed for maintenance and the organization r
 | [rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/) | FAIR4RS/FOSS, Research software metadata |
 | [Research software training](https://lumc-dcc.github.io/research_software_training/) | Research software training |
 | Research software training › Coding Cafe | Community facilitation, Training facilitation |
-| [SciWiz](https://sciwiz.lumc.nl) | SMP/DMP workflows, Data Stewardship Wizard |
-| [research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km) | Software Management Plans, Research software policy, Information modelling, FAIR/FOSS metrics |
+| [SciWiz (internal)](https://sciwiz.lumc.nl) | SMP/DMP workflows, Data Stewardship Wizard |
+| [research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km) | Software Management Plans, Research software policy, Information modelling, FAIR/FOSS metrics |
 | [.md eScience/NWO KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-escience) | eScience Center SMP template, NWO requirements |
 | [rs-files-templates](https://lumc-dcc.github.io/rs-files-templates/) | FAIR4RS/FOSS |
 | [rs-repo-templates](https://github.com/LUMC-DCC/rs-repo-templates) | FAIR4RS/FOSS, Software architecture, Software project conventions |
@@ -28,7 +28,7 @@ Use these views to find the skills needed for maintenance and the organization r
 |---|---|
 | [rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/) | Markdown, YAML |
 | [Research software training](https://lumc-dcc.github.io/research_software_training/) | Markdown, HTML/CSS |
-| [research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km) | DSW Knowledge Model Editor, DSW Knowledge Models |
+| [research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km) | DSW Knowledge Model Editor, DSW Knowledge Models |
 | [.md KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-universal) | DSW Documents Editor, Jinja, Schema/data mapping |
 | [.md eScience/NWO KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-escience) | DSW Documents Editor, Jinja, Schema/data mapping |
 | [rsm-schema](https://lumc-dcc.github.io/rsm-schema/) | Python, JSON Schema development, Pydantic v2, datamodel-code-generator |
@@ -47,7 +47,7 @@ Use these views to find the skills needed for maintenance and the organization r
 | [Albinusnet - Research Software Stewardship (internal)](https://www.albinusnet.nl/en/products-and-services/research/data-stewardship/research-software-stewardship/) | Basic CMS/web publishing |
 | [rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/) | GitHub Actions, GitHub Pages |
 | [Research software training](https://lumc-dcc.github.io/research_software_training/) | GitHub Actions, GitHub Pages |
-| [SciWiz](https://sciwiz.lumc.nl) | Deployment, Data handling and backups, Upgrades, Security |
+| [SciWiz (internal)](https://sciwiz.lumc.nl) | Deployment, Data handling and backups, Upgrades, Security |
 | [rsm-schema](https://lumc-dcc.github.io/rsm-schema/) | GitHub Actions, GitHub Pages |
 | [rs-tools](https://rs-tools.onrender.com/) | Redis, Deployment web, GitHub Auth, GitHub Actions, GitHub Pages |
 | [rs-files-templates](https://lumc-dcc.github.io/rs-files-templates/) | PyPi, GitHub Actions, GitHub Pages |
@@ -65,8 +65,8 @@ Use these views to find the skills needed for maintenance and the organization r
 | [rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/) | ADM | **Domain:** FAIR4RS/FOSS, Research software metadata; **Development:** Markdown, YAML; **Operations:** GitHub Actions, GitHub Pages |
 | [Research software training](https://lumc-dcc.github.io/research_software_training/) | ADM | **Domain:** Research software training; **Development:** Markdown, HTML/CSS; **Operations:** GitHub Actions, GitHub Pages |
 | Research software training › Coding Cafe | ADM | **Domain:** Community facilitation, Training facilitation |
-| [SciWiz](https://sciwiz.lumc.nl) | ADM | **Domain:** SMP/DMP workflows, Data Stewardship Wizard; **Operations:** Deployment, Data handling and backups, Upgrades, Security |
-| [research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km) | ADM | **Domain:** Software Management Plans, Research software policy, Information modelling, FAIR/FOSS metrics; **Development:** DSW Knowledge Model Editor, DSW Knowledge Models |
+| [SciWiz (internal)](https://sciwiz.lumc.nl) | ADM | **Domain:** SMP/DMP workflows, Data Stewardship Wizard; **Operations:** Deployment, Data handling and backups, Upgrades, Security |
+| [research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km) | ADM | **Domain:** Software Management Plans, Research software policy, Information modelling, FAIR/FOSS metrics; **Development:** DSW Knowledge Model Editor, DSW Knowledge Models |
 | [.md KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-universal) | ADM | **Development:** DSW Documents Editor, Jinja, Schema/data mapping |
 | [.md eScience/NWO KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-escience) | ADM | **Domain:** eScience Center SMP template, NWO requirements; **Development:** DSW Documents Editor, Jinja, Schema/data mapping |
 | [.json KM export adhering to RSM schema](https://github.com/LUMC-DCC/sciwiz-smp-rsmjson) | ADM | — |

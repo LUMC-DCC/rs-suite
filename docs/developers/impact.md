@@ -7,14 +7,14 @@ These are **review triggers**: an upstream change means the listed downstream pr
 
 - **[rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/)**: Align definitions, recommendations and links when stewardship policy/guidance changes.
 - **[Research software training](https://lumc-dcc.github.io/research_software_training/)**: Update teaching material when the stewardship model or recommended practices change.
-- **[SciWiz](https://sciwiz.lumc.nl)**: Review SMP workflow guidance when high-level stewardship requirements change.
-- **[research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Review SMP questions/guidance when high-level stewardship requirements change.
+- **[SciWiz (internal)](https://sciwiz.lumc.nl)**: Review SMP workflow guidance when high-level stewardship requirements change.
+- **[research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Review SMP questions/guidance when high-level stewardship requirements change.
 
 ## When rs-guidelines changes
 
 - **[Research software training](https://lumc-dcc.github.io/research_software_training/)**: Keep teaching material aligned with recommended practices.
-- **[SciWiz](https://sciwiz.lumc.nl)**: Review questionnaire guidance and recommendations.
-- **[research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Review questionnaire guidance and recommendations.
+- **[SciWiz (internal)](https://sciwiz.lumc.nl)**: Review questionnaire guidance and recommendations.
+- **[research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Review questionnaire guidance and recommendations.
 - **[rs-repo-templates](https://github.com/LUMC-DCC/rs-repo-templates)**: Update generated repository defaults when recommended practices change.
 - **[rs-files-templates](https://lumc-dcc.github.io/rs-files-templates/)**: Update generated files when recommended practices change.
 - **[rs-metadata](https://lumc-dcc.github.io/rs-metadata/)**: Review validation rules when metadata recommendations change.
@@ -23,31 +23,31 @@ These are **review triggers**: an upstream change means the listed downstream pr
 
 - **[rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/)**: Feed recurring support problems back into guidance when useful.
 
-## When SciWiz changes
+## When SciWiz (internal) changes
 
-- **[research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Check Knowledge Model compatibility after DSW/SciWiz upgrades.
+- **[research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Check Knowledge Model compatibility after DSW/SciWiz upgrades.
 - **[.md KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-universal)**: Review export integration if questionnaire/export APIs or template behavior changes.
 - **[rsm-schema](https://lumc-dcc.github.io/rsm-schema/)**: Verify that SciWiz output can still be converted into RSM metadata.
 - **[Research software training](https://lumc-dcc.github.io/research_software_training/)**: Refresh screenshots/workflow instructions after UI or process changes.
 - **[rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/)**: Refresh workflow instructions after UI or process changes.
 
-## When research-smp changes
+## When research-smp KM changes
 
 - **[.md KM export](https://github.com/LUMC-DCC/sciwiz-smp-doc-universal)**: Update question-to-Markdown mapping when questions, identifiers or answer structures change.
 - **[rsm-schema](https://lumc-dcc.github.io/rsm-schema/)**: Update conversion/mapping for new or changed questionnaire concepts.
-- **[SciWiz](https://sciwiz.lumc.nl)**: Publish/import the new Knowledge Model version and migrate questionnaires when needed.
+- **[SciWiz (internal)](https://sciwiz.lumc.nl)**: Publish/import the new Knowledge Model version and migrate questionnaires when needed.
 - **[rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/)**: Update user-facing terminology/concepts when needed.
 - **[Research software training](https://lumc-dcc.github.io/research_software_training/)**: Update user-facing terminology/concepts when needed.
 
 ## When .md KM export changes
 
-- **[research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Review only if exporter changes require question identifiers/structure to change.
+- **[research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Review only if exporter changes require question identifiers/structure to change.
 - **[rs-guidelines](https://lumc-dcc.github.io/rs-guidelines/)**: Update examples/instructions if generated Markdown changes materially.
 - **[Research software training](https://lumc-dcc.github.io/research_software_training/)**: Update examples/instructions if generated Markdown changes materially.
 
 ## When rsm-schema changes
 
-- **[research-smp](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Update import/export mapping for added, renamed, removed or constrained schema fields.
+- **[research-smp KM](https://github.com/LUMC-DCC/sciwiz-smp-km)**: Update import/export mapping for added, renamed, removed or constrained schema fields.
 - **[rs-tools](https://rs-tools.onrender.com/)**: Update forms, payload generation, validation and schema version handling.
 - **[rs-files-templates](https://lumc-dcc.github.io/rs-files-templates/)**: Update model/template bindings if generated files consume changed RSM fields.
 - **[rs-metadata](https://lumc-dcc.github.io/rs-metadata/)**: Review mappings/validation where RSM fields correspond to repository metadata.

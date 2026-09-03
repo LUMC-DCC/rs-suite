@@ -70,61 +70,61 @@
 <g id="relation&#45;2" class="edge">
 <title>albinusnet&#45;&gt;sciwiz</title>
 <g id="a_relation&#45;2"><a xlink:title="introduces">
-<path fill="none" stroke="#536577" stroke-width="1.5" stroke-dasharray="5,2" d="M194.58,-1290.52C233.9,-1266.98 285,-1236.4 285,-1236.4 285,-1236.4 301.69,-1115.41 309.3,-1060.24"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="311.77,-1060.79 310.25,-1053.31 306.77,-1060.1 311.77,-1060.79"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" stroke-dasharray="5,2" d="M194.58,-1290.52C233.9,-1266.98 285,-1236.4 285,-1236.4 285,-1236.4 301.09,-1115.41 308.43,-1060.24"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="310.9,-1060.78 309.35,-1053.31 305.9,-1060.12 310.9,-1060.78"/>
 </a>
 </g>
-<text xml:space="preserve" text-anchor="start" x="300.4" y="-1176.4" font-family="Arial" font-size="9.00" fill="#374553">introduces</text>
+<text xml:space="preserve" text-anchor="start" x="299.85" y="-1176.4" font-family="Arial" font-size="9.00" fill="#374553">introduces</text>
 </g>
 <!-- rs&#45;guidelines&#45;&gt;sciwiz -->
 <g id="relation&#45;3" class="edge">
 <title>rs&#45;guidelines&#45;&gt;sciwiz</title>
 <g id="a_relation&#45;3"><a xlink:title="describes &amp; guides">
-<path fill="none" stroke="#536577" stroke-width="1.5" stroke-dasharray="5,2" d="M89.74,-1161.29C104.94,-1145.22 125,-1124 125,-1124 125,-1124 220.78,-1077.84 275.61,-1051.42"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="276.6,-1053.74 281.99,-1048.34 274.41,-1049.2 276.6,-1053.74"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" stroke-dasharray="5,2" d="M89.74,-1161.29C104.94,-1145.22 125,-1124 125,-1124 125,-1124 211.93,-1081.88 267.25,-1055.08"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="268.08,-1057.48 273.46,-1052.07 265.88,-1052.95 268.08,-1057.48"/>
 </a>
 </g>
-<text xml:space="preserve" text-anchor="start" x="160.96" y="-1107" font-family="Arial" font-size="9.00" fill="#374553">describes &amp; guides</text>
+<text xml:space="preserve" text-anchor="start" x="160.77" y="-1107" font-family="Arial" font-size="9.00" fill="#374553">describes &amp; guides</text>
 </g>
 <!-- sciwiz&#45;&gt;rsmp&#45;km -->
 <g id="relation&#45;4" class="edge">
 <title>sciwiz&#45;&gt;rsmp&#45;km</title>
 <g id="a_relation&#45;4"><a xlink:title="uses">
-<path fill="none" stroke="#536577" stroke-width="1.5" d="M313,-1013.66C313,-994.43 313,-963.51 313,-941.33"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="315.52,-941.59 313,-934.39 310.48,-941.59 315.52,-941.59"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" d="M312,-1013.66C312,-994.43 312,-963.51 312,-941.33"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="314.52,-941.59 312,-934.39 309.48,-941.59 314.52,-941.59"/>
 </a>
 </g>
-<text xml:space="preserve" text-anchor="start" x="313" y="-969.4" font-family="Arial" font-size="9.00" fill="#374553">uses</text>
+<text xml:space="preserve" text-anchor="start" x="312" y="-969.4" font-family="Arial" font-size="9.00" fill="#374553">uses</text>
 </g>
 <!-- rsmp&#45;km&#45;&gt;generic&#45;export -->
 <g id="relation&#45;5" class="edge">
 <title>rsmp&#45;km&#45;&gt;generic&#45;export</title>
 <g id="a_relation&#45;5"><a xlink:title="converts to">
-<path fill="none" stroke="#536577" stroke-width="1.5" d="M283.78,-895.01C248.84,-873.97 190.28,-838.72 152.15,-815.76"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="153.75,-813.79 146.28,-812.23 151.15,-818.1 153.75,-813.79"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" d="M282.93,-895.01C248.16,-873.97 189.9,-838.72 151.96,-815.76"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="153.59,-813.81 146.13,-812.24 150.99,-818.12 153.59,-813.81"/>
 </a>
 </g>
-<text xml:space="preserve" text-anchor="start" x="219.94" y="-850.6" font-family="Arial" font-size="9.00" fill="#374553">converts to</text>
+<text xml:space="preserve" text-anchor="start" x="219.41" y="-850.6" font-family="Arial" font-size="9.00" fill="#374553">converts to</text>
 </g>
 <!-- rsmp&#45;km&#45;&gt;escience&#45;export -->
 <g id="relation&#45;6" class="edge">
 <title>rsmp&#45;km&#45;&gt;escience&#45;export</title>
 <g id="a_relation&#45;6"><a xlink:title="converts to">
-<path fill="none" stroke="#536577" stroke-width="1.5" d="M307.98,-895.01C302.33,-875.2 293.09,-842.8 286.56,-819.92"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="289.06,-819.48 284.66,-813.24 284.21,-820.86 289.06,-819.48"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" d="M307.13,-895.01C301.65,-875.2 292.68,-842.8 286.34,-819.92"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="288.84,-819.52 284.5,-813.25 283.99,-820.86 288.84,-819.52"/>
 </a>
 </g>
-<text xml:space="preserve" text-anchor="start" x="297.02" y="-850.6" font-family="Arial" font-size="9.00" fill="#374553">converts to</text>
+<text xml:space="preserve" text-anchor="start" x="296.49" y="-850.6" font-family="Arial" font-size="9.00" fill="#374553">converts to</text>
 </g>
 <!-- rsmp&#45;km&#45;&gt;rsm&#45;schema&#45;export -->
 <g id="relation&#45;7" class="edge">
 <title>rsmp&#45;km&#45;&gt;rsm&#45;schema&#45;export</title>
 <g id="a_relation&#45;7"><a xlink:title="converts to">
-<path fill="none" stroke="#536577" stroke-width="1.5" d="M357.74,-894.88C410,-874.19 496.67,-839.87 554.55,-816.94"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="555.35,-819.34 561.11,-814.34 553.49,-814.65 555.35,-819.34"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" d="M356.89,-894.88C409.32,-874.19 496.28,-839.87 554.35,-816.94"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="555.17,-819.33 560.94,-814.34 553.32,-814.64 555.17,-819.33"/>
 </a>
 </g>
-<text xml:space="preserve" text-anchor="start" x="472.53" y="-850.6" font-family="Arial" font-size="9.00" fill="#374553">converts to</text>
+<text xml:space="preserve" text-anchor="start" x="472.06" y="-850.6" font-family="Arial" font-size="9.00" fill="#374553">converts to</text>
 </g>
 <!-- rsm&#45;schema&#45;export&#45;&gt;rsm&#45;schema -->
 <g id="relation&#45;8" class="edge">
@@ -150,8 +150,8 @@
 <g id="relation&#45;10" class="edge">
 <title>rsm&#45;schema&#45;&gt;rsmp&#45;km</title>
 <g id="a_relation&#45;10"><a xlink:title="imports to (planned)">
-<path fill="none" stroke="#536577" stroke-width="1.5" d="M460.53,-689.72C435.87,-727.41 380,-812.8 380,-812.8 380,-812.8 349.55,-858.15 329.71,-887.71"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="327.86,-885.95 325.94,-893.33 332.04,-888.76 327.86,-885.95"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" d="M460.53,-689.72C435.87,-727.41 380,-812.8 380,-812.8 380,-812.8 349.1,-858.15 328.96,-887.71"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="327.09,-885.97 325.12,-893.34 331.26,-888.81 327.09,-885.97"/>
 </a>
 </g>
 <text xml:space="preserve" text-anchor="start" x="406.62" y="-788.8" font-family="Arial" font-size="9.00" fill="#374553">imports to (planned)</text>
@@ -201,11 +201,11 @@
 <g id="relation&#45;15" class="edge">
 <title>rs&#45;files&#45;templates&#45;&gt;rs&#45;metadata</title>
 <g id="a_relation&#45;15"><a xlink:title="validated by">
-<path fill="none" stroke="#536577" stroke-width="1.5" stroke-dasharray="5,2" d="M681.37,-277.31C664.41,-255.29 635.32,-217.54 616.13,-192.62"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="618.29,-191.3 611.9,-187.13 614.29,-194.38 618.29,-191.3"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" stroke-dasharray="5,2" d="M684.15,-277.31C670.77,-255.48 647.9,-218.19 632.62,-193.27"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="634.85,-192.09 628.94,-187.27 630.56,-194.73 634.85,-192.09"/>
 </a>
 </g>
-<text xml:space="preserve" text-anchor="start" x="651.87" y="-233" font-family="Arial" font-size="9.00" fill="#374553">validated by</text>
+<text xml:space="preserve" text-anchor="start" x="660.67" y="-233" font-family="Arial" font-size="9.00" fill="#374553">validated by</text>
 </g>
 <!-- rs&#45;repo&#45;templates&#45;&gt;rs&#45;files&#45;templates -->
 <g id="relation&#45;17" class="edge">
@@ -221,8 +221,8 @@
 <g id="relation&#45;16" class="edge">
 <title>rs&#45;repo&#45;templates&#45;&gt;rs&#45;metadata</title>
 <g id="a_relation&#45;16"><a xlink:title="includes">
-<path fill="none" stroke="#536577" stroke-width="1.5" stroke-dasharray="5,2" d="M593.13,-396.32C593.39,-359.65 593.98,-278 593.98,-278 593.98,-278 595.37,-227.18 596.27,-194.57"/>
-<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="598.77,-195.04 596.45,-187.77 593.74,-194.9 598.77,-195.04"/>
+<path fill="none" stroke="#536577" stroke-width="1.5" stroke-dasharray="5,2" d="M593.13,-396.32C593.39,-359.65 593.98,-278 593.98,-278 593.98,-278 604.59,-227.18 611.41,-194.57"/>
+<polygon fill="#536577" stroke="#536577" stroke-width="1.5" points="613.83,-195.29 612.84,-187.73 608.9,-194.26 613.83,-195.29"/>
 </a>
 </g>
 <text xml:space="preserve" text-anchor="start" x="593.98" y="-292.4" font-family="Arial" font-size="9.00" fill="#374553">includes</text>
@@ -313,18 +313,18 @@
 <!-- sciwiz -->
 <g id="project&#45;sciwiz" class="node">
 <title>sciwiz</title>
-<g id="a_project&#45;sciwiz"><a xlink:href="https://sciwiz.lumc.nl" xlink:title="SciWiz" target="_blank">
-<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M329.32,-1050.4C329.32,-1050.4 296.68,-1050.4 296.68,-1050.4 290.68,-1050.4 284.68,-1044.4 284.68,-1038.4 284.68,-1038.4 284.68,-1026.4 284.68,-1026.4 284.68,-1020.4 290.68,-1014.4 296.68,-1014.4 296.68,-1014.4 329.32,-1014.4 329.32,-1014.4 335.32,-1014.4 341.32,-1020.4 341.32,-1026.4 341.32,-1026.4 341.32,-1038.4 341.32,-1038.4 341.32,-1044.4 335.32,-1050.4 329.32,-1050.4"/>
-<text xml:space="preserve" text-anchor="start" x="296.2" y="-1028" font-family="Arial" font-size="11.00" fill="#18212b">SciWiz</text>
+<g id="a_project&#45;sciwiz"><a xlink:href="https://sciwiz.lumc.nl" xlink:title="SciWiz (internal)" target="_blank">
+<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M351.55,-1050.4C351.55,-1050.4 272.45,-1050.4 272.45,-1050.4 266.45,-1050.4 260.45,-1044.4 260.45,-1038.4 260.45,-1038.4 260.45,-1026.4 260.45,-1026.4 260.45,-1020.4 266.45,-1014.4 272.45,-1014.4 272.45,-1014.4 351.55,-1014.4 351.55,-1014.4 357.55,-1014.4 363.55,-1020.4 363.55,-1026.4 363.55,-1026.4 363.55,-1038.4 363.55,-1038.4 363.55,-1044.4 357.55,-1050.4 351.55,-1050.4"/>
+<text xml:space="preserve" text-anchor="start" x="271.97" y="-1028" font-family="Arial" font-size="11.00" fill="#18212b">SciWiz (internal)</text>
 </a>
 </g>
 </g>
 <!-- rsmp&#45;km -->
 <g id="project&#45;rsmp&#45;km" class="node">
 <title>rsmp&#45;km</title>
-<g id="a_project&#45;rsmp&#45;km"><a xlink:href="https://github.com/LUMC-DCC/sciwiz-smp-km" xlink:title="research&#45;smp" target="_blank">
-<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" stroke-dasharray="5,2" d="M346.14,-931.6C346.14,-931.6 279.86,-931.6 279.86,-931.6 273.86,-931.6 267.86,-925.6 267.86,-919.6 267.86,-919.6 267.86,-907.6 267.86,-907.6 267.86,-901.6 273.86,-895.6 279.86,-895.6 279.86,-895.6 346.14,-895.6 346.14,-895.6 352.14,-895.6 358.14,-901.6 358.14,-907.6 358.14,-907.6 358.14,-919.6 358.14,-919.6 358.14,-925.6 352.14,-931.6 346.14,-931.6"/>
-<text xml:space="preserve" text-anchor="start" x="279.38" y="-909.2" font-family="Arial" font-size="11.00" fill="#18212b">research&#45;smp</text>
+<g id="a_project&#45;rsmp&#45;km"><a xlink:href="https://github.com/LUMC-DCC/sciwiz-smp-km" xlink:title="research&#45;smp KM" target="_blank">
+<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M354.92,-931.6C354.92,-931.6 269.08,-931.6 269.08,-931.6 263.08,-931.6 257.08,-925.6 257.08,-919.6 257.08,-919.6 257.08,-907.6 257.08,-907.6 257.08,-901.6 263.08,-895.6 269.08,-895.6 269.08,-895.6 354.92,-895.6 354.92,-895.6 360.92,-895.6 366.92,-901.6 366.92,-907.6 366.92,-907.6 366.92,-919.6 366.92,-919.6 366.92,-925.6 360.92,-931.6 354.92,-931.6"/>
+<text xml:space="preserve" text-anchor="start" x="268.6" y="-909.2" font-family="Arial" font-size="11.00" fill="#18212b">research&#45;smp KM</text>
 </a>
 </g>
 </g>
@@ -332,7 +332,7 @@
 <g id="project&#45;generic&#45;export" class="node">
 <title>generic&#45;export</title>
 <g id="a_project&#45;generic&#45;export"><a xlink:href="https://github.com/LUMC-DCC/sciwiz-smp-doc-universal" xlink:title=".md KM export" target="_blank">
-<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" stroke-dasharray="5,2" d="M150.28,-810.4C150.28,-810.4 79.72,-810.4 79.72,-810.4 73.72,-810.4 67.72,-804.4 67.72,-798.4 67.72,-798.4 67.72,-786.4 67.72,-786.4 67.72,-780.4 73.72,-774.4 79.72,-774.4 79.72,-774.4 150.28,-774.4 150.28,-774.4 156.28,-774.4 162.28,-780.4 162.28,-786.4 162.28,-786.4 162.28,-798.4 162.28,-798.4 162.28,-804.4 156.28,-810.4 150.28,-810.4"/>
+<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M150.28,-810.4C150.28,-810.4 79.72,-810.4 79.72,-810.4 73.72,-810.4 67.72,-804.4 67.72,-798.4 67.72,-798.4 67.72,-786.4 67.72,-786.4 67.72,-780.4 73.72,-774.4 79.72,-774.4 79.72,-774.4 150.28,-774.4 150.28,-774.4 156.28,-774.4 162.28,-780.4 162.28,-786.4 162.28,-786.4 162.28,-798.4 162.28,-798.4 162.28,-804.4 156.28,-810.4 150.28,-810.4"/>
 <text xml:space="preserve" text-anchor="start" x="79.24" y="-788" font-family="Arial" font-size="11.00" fill="#18212b">.md KM export</text>
 </a>
 </g>
@@ -341,7 +341,7 @@
 <g id="project&#45;escience&#45;export" class="node">
 <title>escience&#45;export</title>
 <g id="a_project&#45;escience&#45;export"><a xlink:href="https://github.com/LUMC-DCC/sciwiz-smp-doc-escience" xlink:title=".md eScience/NWO KM export" target="_blank">
-<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" stroke-dasharray="5,2" d="M353.4,-810.4C353.4,-810.4 204.6,-810.4 204.6,-810.4 198.6,-810.4 192.6,-804.4 192.6,-798.4 192.6,-798.4 192.6,-786.4 192.6,-786.4 192.6,-780.4 198.6,-774.4 204.6,-774.4 204.6,-774.4 353.4,-774.4 353.4,-774.4 359.4,-774.4 365.4,-780.4 365.4,-786.4 365.4,-786.4 365.4,-798.4 365.4,-798.4 365.4,-804.4 359.4,-810.4 353.4,-810.4"/>
+<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M353.4,-810.4C353.4,-810.4 204.6,-810.4 204.6,-810.4 198.6,-810.4 192.6,-804.4 192.6,-798.4 192.6,-798.4 192.6,-786.4 192.6,-786.4 192.6,-780.4 198.6,-774.4 204.6,-774.4 204.6,-774.4 353.4,-774.4 353.4,-774.4 359.4,-774.4 365.4,-780.4 365.4,-786.4 365.4,-786.4 365.4,-798.4 365.4,-798.4 365.4,-804.4 359.4,-810.4 353.4,-810.4"/>
 <text xml:space="preserve" text-anchor="start" x="204.12" y="-788" font-family="Arial" font-size="11.00" fill="#18212b">.md eScience/NWO KM export</text>
 </a>
 </g>
@@ -350,7 +350,7 @@
 <g id="project&#45;rsm&#45;schema&#45;export" class="node">
 <title>rsm&#45;schema&#45;export</title>
 <g id="a_project&#45;rsm&#45;schema&#45;export"><a xlink:href="https://github.com/LUMC-DCC/sciwiz-smp-rsmjson" xlink:title=".json KM export adhering to RSM schema" target="_blank">
-<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" stroke-dasharray="5,2" d="M680.78,-812.8C680.78,-812.8 547.22,-812.8 547.22,-812.8 541.22,-812.8 535.22,-806.8 535.22,-800.8 535.22,-800.8 535.22,-784 535.22,-784 535.22,-778 541.22,-772 547.22,-772 547.22,-772 680.78,-772 680.78,-772 686.78,-772 692.78,-778 692.78,-784 692.78,-784 692.78,-800.8 692.78,-800.8 692.78,-806.8 686.78,-812.8 680.78,-812.8"/>
+<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M680.78,-812.8C680.78,-812.8 547.22,-812.8 547.22,-812.8 541.22,-812.8 535.22,-806.8 535.22,-800.8 535.22,-800.8 535.22,-784 535.22,-784 535.22,-778 541.22,-772 547.22,-772 547.22,-772 680.78,-772 680.78,-772 686.78,-772 692.78,-778 692.78,-784 692.78,-784 692.78,-800.8 692.78,-800.8 692.78,-806.8 686.78,-812.8 680.78,-812.8"/>
 <text xml:space="preserve" text-anchor="start" x="546.74" y="-794.6" font-family="Arial" font-size="11.00" fill="#18212b">.json KM export adhering to</text>
 <text xml:space="preserve" text-anchor="start" x="580.99" y="-781.4" font-family="Arial" font-size="11.00" fill="#18212b">RSM schema</text>
 </a>
@@ -369,7 +369,7 @@
 <g id="project&#45;rs&#45;tools" class="node">
 <title>rs&#45;tools</title>
 <g id="a_project&#45;rs&#45;tools"><a xlink:href="https://rs-tools.onrender.com/" xlink:title="rs&#45;tools" target="_blank">
-<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" stroke-dasharray="5,2" d="M626.55,-551.6C626.55,-551.6 591.45,-551.6 591.45,-551.6 585.45,-551.6 579.45,-545.6 579.45,-539.6 579.45,-539.6 579.45,-527.6 579.45,-527.6 579.45,-521.6 585.45,-515.6 591.45,-515.6 591.45,-515.6 626.55,-515.6 626.55,-515.6 632.55,-515.6 638.55,-521.6 638.55,-527.6 638.55,-527.6 638.55,-539.6 638.55,-539.6 638.55,-545.6 632.55,-551.6 626.55,-551.6"/>
+<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M626.55,-551.6C626.55,-551.6 591.45,-551.6 591.45,-551.6 585.45,-551.6 579.45,-545.6 579.45,-539.6 579.45,-539.6 579.45,-527.6 579.45,-527.6 579.45,-521.6 585.45,-515.6 591.45,-515.6 591.45,-515.6 626.55,-515.6 626.55,-515.6 632.55,-515.6 638.55,-521.6 638.55,-527.6 638.55,-527.6 638.55,-539.6 638.55,-539.6 638.55,-545.6 632.55,-551.6 626.55,-551.6"/>
 <text xml:space="preserve" text-anchor="start" x="590.97" y="-529.2" font-family="Arial" font-size="11.00" fill="#18212b">rs&#45;tools</text>
 </a>
 </g>
@@ -387,7 +387,7 @@
 <g id="project&#45;rs&#45;repo&#45;templates" class="node">
 <title>rs&#45;repo&#45;templates</title>
 <g id="a_project&#45;rs&#45;repo&#45;templates"><a xlink:href="https://github.com/LUMC-DCC/rs-repo-templates" xlink:title="rs&#45;repo&#45;templates" target="_blank">
-<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" stroke-dasharray="5,2" d="M635.62,-432.8C635.62,-432.8 550.38,-432.8 550.38,-432.8 544.38,-432.8 538.38,-426.8 538.38,-420.8 538.38,-420.8 538.38,-408.8 538.38,-408.8 538.38,-402.8 544.38,-396.8 550.38,-396.8 550.38,-396.8 635.62,-396.8 635.62,-396.8 641.62,-396.8 647.62,-402.8 647.62,-408.8 647.62,-408.8 647.62,-420.8 647.62,-420.8 647.62,-426.8 641.62,-432.8 635.62,-432.8"/>
+<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M635.62,-432.8C635.62,-432.8 550.38,-432.8 550.38,-432.8 544.38,-432.8 538.38,-426.8 538.38,-420.8 538.38,-420.8 538.38,-408.8 538.38,-408.8 538.38,-402.8 544.38,-396.8 550.38,-396.8 550.38,-396.8 635.62,-396.8 635.62,-396.8 641.62,-396.8 647.62,-402.8 647.62,-408.8 647.62,-408.8 647.62,-420.8 647.62,-420.8 647.62,-426.8 641.62,-432.8 635.62,-432.8"/>
 <text xml:space="preserve" text-anchor="start" x="549.9" y="-410.4" font-family="Arial" font-size="11.00" fill="#18212b">rs&#45;repo&#45;templates</text>
 </a>
 </g>
@@ -396,8 +396,8 @@
 <g id="project&#45;rs&#45;metadata" class="node">
 <title>rs&#45;metadata</title>
 <g id="a_project&#45;rs&#45;metadata"><a xlink:href="https://lumc-dcc.github.io/rs-metadata/" xlink:title="rs&#45;metadata" target="_blank">
-<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M625.86,-184.8C625.86,-184.8 568.14,-184.8 568.14,-184.8 562.14,-184.8 556.14,-178.8 556.14,-172.8 556.14,-172.8 556.14,-160.8 556.14,-160.8 556.14,-154.8 562.14,-148.8 568.14,-148.8 568.14,-148.8 625.86,-148.8 625.86,-148.8 631.86,-148.8 637.86,-154.8 637.86,-160.8 637.86,-160.8 637.86,-172.8 637.86,-172.8 637.86,-178.8 631.86,-184.8 625.86,-184.8"/>
-<text xml:space="preserve" text-anchor="start" x="567.66" y="-162.4" font-family="Arial" font-size="11.00" fill="#18212b">rs&#45;metadata</text>
+<path fill="#dceffc" stroke="#5787a5" stroke-width="1.5" d="M645.86,-184.8C645.86,-184.8 588.14,-184.8 588.14,-184.8 582.14,-184.8 576.14,-178.8 576.14,-172.8 576.14,-172.8 576.14,-160.8 576.14,-160.8 576.14,-154.8 582.14,-148.8 588.14,-148.8 588.14,-148.8 645.86,-148.8 645.86,-148.8 651.86,-148.8 657.86,-154.8 657.86,-160.8 657.86,-160.8 657.86,-172.8 657.86,-172.8 657.86,-178.8 651.86,-184.8 645.86,-184.8"/>
+<text xml:space="preserve" text-anchor="start" x="587.66" y="-162.4" font-family="Arial" font-size="11.00" fill="#18212b">rs&#45;metadata</text>
 </a>
 </g>
 </g>

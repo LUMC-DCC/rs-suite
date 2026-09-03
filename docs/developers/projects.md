@@ -16,7 +16,7 @@ General information and overview on research software stewardship at LUMC.
 
 Definitions, resources, and best practices for research software.
 
-**Link:** https://lumc-dcc.github.io/rs-guidelines/  **Repository:** https://github.com/LUMC-DCC/rs-guidelines
+**Link:** https://lumc-dcc.github.io/rs-guidelines/  **Repository:** https://github.com/LUMC-DCC/rs-guidelines  **Note:** still needs a release
 
 ---
 ### Research software training
@@ -32,46 +32,46 @@ Community meetups.
 ---
 ## Plan & describe
 
-### SciWiz
+### SciWiz (internal)
 
 LUMC instance of Data Stewardship Wizard for filling in software management plans and exports.
 
 **Link:** https://sciwiz.lumc.nl
 
 ---
-### research-smp
+### research-smp KM
 
 SciWiz Knowledge Model for creating Software Management Plans.
 
-**Status:** in-progress  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-km
+**Status:** active  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-km
 
 ---
 ### .md KM export
 
 Question-answer Markdown export from the Software Management Plan.
 
-**Status:** in-progress  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-doc-universal
+**Status:** active  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-doc-universal
 
 ---
 ### .md eScience/NWO KM export
 
 Markdown export from the SMP for the eScience Center / NWO template.
 
-**Status:** in-progress  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-doc-escience
+**Status:** active  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-doc-escience
 
 ---
 ### .json KM export adhering to RSM schema
 
 JSON export from the SMP in the form of RSM schema data
 
-**Status:** in-progress  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-rsmjson
+**Status:** active  **Link:** https://github.com/LUMC-DCC/sciwiz-smp-rsmjson
 
 ---
 ### rsm-schema
 
 Structured metadata schema and Python representation for Research Software Management.
 
-**Link:** https://lumc-dcc.github.io/rsm-schema/  **Repository:** https://github.com/LUMC-DCC/rsm-schema
+**Link:** https://lumc-dcc.github.io/rsm-schema/  **Repository:** https://github.com/LUMC-DCC/rsm-schema  **Note:** still needs a release
 
 ---
 ## Build the software project
@@ -80,14 +80,14 @@ Structured metadata schema and Python representation for Research Software Manag
 
 Web tool to edit RSM metadata and generate project assets.
 
-**Status:** in-progress  **Link:** https://rs-tools.onrender.com/  **Repository:** https://github.com/LUMC-DCC/rs-tools
+**Status:** active  **Link:** https://rs-tools.onrender.com/  **Repository:** https://github.com/LUMC-DCC/rs-tools  **Note:** still needs a release
 
 ---
 ### rs-files-templates
 
 Generate repository and metadata files from RSM data.
 
-**Link:** https://lumc-dcc.github.io/rs-files-templates/  **Repository:** https://github.com/LUMC-DCC/rs-files-templates
+**Link:** https://lumc-dcc.github.io/rs-files-templates/  **Repository:** https://github.com/LUMC-DCC/rs-files-templates  **Note:** still needs a release
 
 **Produces:** metadata files, documentation files, repository files
 
@@ -96,14 +96,14 @@ Generate repository and metadata files from RSM data.
 
 Repository templates for starting projects with FAIR and FOSS practices baked in.
 
-**Status:** in-progress  **Link:** https://github.com/LUMC-DCC/rs-repo-templates
+**Status:** active  **Link:** https://github.com/LUMC-DCC/rs-repo-templates  **Note:** still needs a release
 
 ---
 ### rs-metadata
 
 Validate the LUMC CodeMeta profile and keep repository metadata consistent.
 
-**Link:** https://lumc-dcc.github.io/rs-metadata/  **Repository:** https://github.com/LUMC-DCC/rs-metadata
+**Link:** https://lumc-dcc.github.io/rs-metadata/  **Repository:** https://github.com/LUMC-DCC/rs-metadata  **Note:** still needs a release
 
 ---
 ## Publish, connect & reuse
@@ -117,7 +117,7 @@ A research software repository produced and maintained using the suite.
 
 Bidirectional metadata bridge; RSM sync is planned.
 
-**Status:** in-progress  **Link:** https://github.com/bio-tools/metadata-bridge
+**Status:** in-progress  **Link:** https://github.com/bio-tools/metadata-bridge  **Note:** still needs a release
 
 #### GitHub ↔ bio.tools bridge
 
@@ -143,7 +143,7 @@ External registry for software metadata.
 
 Compare equivalent JSON documents side by side and merge them interactively.
 
-**Link:** https://github.com/bio-tools/diff-fuse
+**Link:** https://github.com/bio-tools/diff-fuse  **Note:** still needs a release
 
 ---
 <!-- generated:end -->
