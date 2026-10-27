@@ -16,7 +16,7 @@ General information and overview on research software stewardship at LUMC.
 
 Definitions, resources, and best practices for research software.
 
-**Link:** https://lumc-dcc.github.io/rs-guidelines/  **Repository:** https://github.com/LUMC-DCC/rs-guidelines  **Note:** still needs a release
+**Link:** https://lumc-dcc.github.io/rs-guidelines/  **Repository:** https://github.com/LUMC-DCC/rs-guidelines
 
 ---
 ### Research software training
@@ -71,7 +71,7 @@ JSON export from the SMP in the form of RSM schema data
 
 Structured metadata schema and Python representation for Research Software Management.
 
-**Link:** https://lumc-dcc.github.io/rsm-schema/  **Repository:** https://github.com/LUMC-DCC/rsm-schema  **Note:** still needs a release
+**Link:** https://lumc-dcc.github.io/rsm-schema/  **Repository:** https://github.com/LUMC-DCC/rsm-schema
 
 ---
 ## Build the software project
@@ -87,7 +87,7 @@ Web tool to edit RSM metadata and generate project assets.
 
 Generate repository and metadata files from RSM data.
 
-**Link:** https://lumc-dcc.github.io/rs-files-templates/  **Repository:** https://github.com/LUMC-DCC/rs-files-templates  **Note:** still needs a release
+**Link:** https://lumc-dcc.github.io/rs-files-templates/  **Repository:** https://github.com/LUMC-DCC/rs-files-templates
 
 **Produces:** metadata files, documentation files, repository files
 
@@ -96,14 +96,14 @@ Generate repository and metadata files from RSM data.
 
 Repository templates for starting projects with FAIR and FOSS practices baked in.
 
-**Status:** active  **Link:** https://github.com/LUMC-DCC/rs-repo-templates  **Note:** still needs a release
+**Status:** active  **Link:** https://github.com/LUMC-DCC/rs-repo-templates
 
 ---
 ### rs-metadata
 
 Validate the LUMC CodeMeta profile and keep repository metadata consistent.
 
-**Link:** https://lumc-dcc.github.io/rs-metadata/  **Repository:** https://github.com/LUMC-DCC/rs-metadata  **Note:** still needs a release
+**Link:** https://lumc-dcc.github.io/rs-metadata/  **Repository:** https://github.com/LUMC-DCC/rs-metadata
 
 ---
 ## Publish, connect & reuse
@@ -117,7 +117,7 @@ A research software repository produced and maintained using the suite.
 
 Bidirectional metadata bridge; RSM sync is planned.
 
-**Status:** in-progress  **Link:** https://github.com/bio-tools/metadata-bridge  **Note:** still needs a release
+**Status:** active  **Link:** https://github.com/bio-tools/metadata-bridge  **Note:** still needs a release
 
 #### GitHub ↔ bio.tools bridge
 
@@ -143,7 +143,7 @@ External registry for software metadata.
 
 Compare equivalent JSON documents side by side and merge them interactively.
 
-**Link:** https://github.com/bio-tools/diff-fuse  **Note:** still needs a release
+**Link:** https://github.com/bio-tools/diff-fuse
 
 ---
 <!-- generated:end -->

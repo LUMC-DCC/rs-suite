@@ -45,7 +45,7 @@ Publish the software metadata, connect it to registries, and keep records synchr
 | Resource | What it helps with | Availability |
 |---|---|---|
 | Repository | A research software repository produced and maintained using the suite. | Active; link not available yet |
-| [Metadata bridge](https://github.com/bio-tools/metadata-bridge) | Bidirectional metadata bridge; RSM sync is planned. | In Progress |
+| [Metadata bridge](https://github.com/bio-tools/metadata-bridge) | Bidirectional metadata bridge; RSM sync is planned. | Active |
 | ↳ GitHub ↔ bio.tools bridge | Synchronize software metadata bidirectionally between GitHub repositories and bio.tools. | Active; link not available yet |
 | ↳ GitHub ↔ RSM bridge | Synchronize repository metadata with the Research Software Metadata schema. | Planned; link not available yet |
 | [bio.tools registry](https://bio.tools/) | External registry for software metadata. | Active |

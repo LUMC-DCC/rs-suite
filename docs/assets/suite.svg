@@ -41,7 +41,7 @@
 <g id="project&#45;bridge" class="cluster">
 <title>cluster&#45;project&#45;bridge</title>
 <g id="a_project&#45;bridge"><a xlink:href="https://github.com/bio-tools/metadata-bridge" xlink:title="Metadata bridge" target="_blank">
-<path fill="#ffe2d2" stroke="#b67a5d" stroke-width="1.4" stroke-dasharray="5,2" d="M128,-132.8C128,-132.8 474,-132.8 474,-132.8 480,-132.8 486,-138.8 486,-144.8 486,-144.8 486,-211.2 486,-211.2 486,-217.2 480,-223.2 474,-223.2 474,-223.2 128,-223.2 128,-223.2 122,-223.2 116,-217.2 116,-211.2 116,-211.2 116,-144.8 116,-144.8 116,-138.8 122,-132.8 128,-132.8"/>
+<path fill="#ffe2d2" stroke="#b67a5d" stroke-width="1.4" d="M128,-132.8C128,-132.8 474,-132.8 474,-132.8 480,-132.8 486,-138.8 486,-144.8 486,-144.8 486,-211.2 486,-211.2 486,-217.2 480,-223.2 474,-223.2 474,-223.2 128,-223.2 128,-223.2 122,-223.2 116,-217.2 116,-211.2 116,-211.2 116,-144.8 116,-144.8 116,-138.8 122,-132.8 128,-132.8"/>
 <text xml:space="preserve" text-anchor="start" x="124" y="-207.2" font-family="Arial Bold" font-size="12.00" fill="#18212b">Metadata bridge</text>
 </a>
 </g>

@@ -66,7 +66,7 @@ Parent projects are containers around their child projects. Every relationship a
 | Project | Purpose | Status |
 |---|---|---|
 | Repository | A research software repository produced and maintained using the suite. | active |
-| [Metadata bridge](https://github.com/bio-tools/metadata-bridge) | Bidirectional metadata bridge; RSM sync is planned. | in-progress |
+| [Metadata bridge](https://github.com/bio-tools/metadata-bridge) | Bidirectional metadata bridge; RSM sync is planned. | active |
 | ↳ GitHub ↔ bio.tools bridge | Synchronize software metadata bidirectionally between GitHub repositories and bio.tools. | active |
 | ↳ GitHub ↔ RSM bridge | Synchronize repository metadata with the Research Software Metadata schema. | planned |
 | [bio.tools registry](https://bio.tools/) | External registry for software metadata. | active |
