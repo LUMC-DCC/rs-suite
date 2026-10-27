@@ -65,7 +65,6 @@ projects:
     url: https://lumc-dcc.github.io/rs-guidelines/
     repository: https://github.com/LUMC-DCC/rs-guidelines
     summary: Definitions, resources, and best practices for research software.
-    note: still needs a release
     skills:
       domain:
       - FAIR4RS/FOSS
@@ -249,7 +248,6 @@ projects:
     url: https://lumc-dcc.github.io/rsm-schema/
     repository: https://github.com/LUMC-DCC/rsm-schema
     summary: Structured metadata schema and Python representation for Research Software Management.
-    note: still needs a release
     skills:
       development:
       - Python
@@ -331,7 +329,6 @@ projects:
     url: https://lumc-dcc.github.io/rs-files-templates/
     repository: https://github.com/LUMC-DCC/rs-files-templates
     summary: Generate repository and metadata files from RSM data.
-    note: still needs a release
     outputs:
     - metadata files
     - documentation files
@@ -371,7 +368,6 @@ projects:
     url: https://github.com/LUMC-DCC/rs-repo-templates
     repository: https://github.com/LUMC-DCC/rs-repo-templates
     summary: Repository templates for starting projects with FAIR and FOSS practices baked in.
-    note: still needs a release
     skills:
       domain:
       - FAIR4RS/FOSS
@@ -416,7 +412,6 @@ projects:
     url: https://lumc-dcc.github.io/rs-metadata/
     repository: https://github.com/LUMC-DCC/rs-metadata
     summary: Validate the LUMC CodeMeta profile and keep repository metadata consistent.
-    note: still needs a release
     skills:
       domain:
       - CodeMeta
@@ -550,7 +545,6 @@ projects:
     url: https://github.com/bio-tools/diff-fuse
     repository: https://github.com/bio-tools/diff-fuse
     summary: Compare equivalent JSON documents side by side and merge them interactively.
-    note: still needs a release
     skills:
       development:
       - Python
